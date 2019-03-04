@@ -1,0 +1,17 @@
+﻿<Window x:Class="stringConcat.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:stringConcat"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525" FontSize="24">
+    <StackPanel>
+        <TextBox x:Name="txtFirstName" />
+        <TextBox x:Name="txtLastName" />
+        <Calendar x:Name="calBDay" />
+        <Button x:Name="btnConcat" Click="btnConcat_Click">Click Me</Button>
+        <Label x:Name="lblOutput"></Label>
+
+    </StackPanel>
+</Window>
